@@ -1,7 +1,22 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "homepage": "",
+  "short_name": "Pranav Shukla",
+  "name": "Pranav Shukla's Website",
+  "homepage": "https://fireteamsix.github.io/",
+  "dependencies": {
+    "gh-pages": "5.0.0",
+    "react": "^16.8.3",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "yarn": "^1.13.0"},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"},
+  "eslintConfig": {
+    "extends": "react-app"},
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +34,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://pranavshukla.com",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
